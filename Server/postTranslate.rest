@@ -1,0 +1,12 @@
+# POST https://kalakrit-ai-api.onrender.com/api/v1/translate HTTP/1.1
+POST http://localhost:8081/api/v1/translate HTTP/1.1
+content-type: application/json
+
+{
+    "tone": "Casual",
+    "type": "Conversational",
+    "domain": "IT",
+    "targetMarket": "Jaipur",
+    "data": "If you are someone wanted to build a rapid prototype application or create a reporting dashboard or a simple configuration dashboard, Google sheet would be a great fit for you. Please read along to find how you can use Google sheet as data store or dashboard with node.js. To start using Google Sheet as your database, you should be setting up read and write access to your server software programmatically. For that, you should be creating a project in the Google Cloud Platform and enable the Google Sheets API service in that. This is a free service from Google and need not add your credit/debit card details in Google Cloud Platform for this. You should be creating a service account to provide read and write permission to your Google Sheet from you your server, will explain this in detail below. Google is providing SDK for reading and writing Google Sheets for some programming languages. The examples given below will be in Node.js only, but you can do the same in any programming language supporting HTTP requests. I will be adding sample code for reading one data from one Google Sheet tab and adding new rows to the Google Sheet with step by step explanation. To start with, I am importing the googleapis library which we installed on the above step and creating some constant variables to keep the Google Sheet id, Sheet tab name, range of the Sheet we are reading, and path to the service account key we downloaded. We need to exchange the service account key to get access token that we can use to read and write the Google Sheet. Most of this is abstracted already in the googleapis library itself, still I will create a wrapper function to abstract generating a auth client that can be used to authenticate to the Google Sheets APIs as below. We can read a specific range from Google Sheet with the help of the googleapis library and the auth client created from the above function. Adding a function below to do the same.",
+    "outputLanguage": "Hindi"
+}
